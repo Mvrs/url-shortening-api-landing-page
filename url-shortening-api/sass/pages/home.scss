@@ -1,10 +1,7 @@
 .container {
-  min-height: 100vh;
-  padding: 0 0.5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  max-width: 120rem;
+  padding: 0 10rem;
+  min-height: 50rem;
 }
 
 .super-color {

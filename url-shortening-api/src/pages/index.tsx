@@ -1,5 +1,6 @@
 import Head from 'next/head';
 // import '../../sass/pages/home.scss';
+import Nav from '../components/nav';
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
           href="../images/favicon-32x32.png"
         />
       </Head>
-
+      <Nav />
       <h1 className="super-color"> Hello I'm super color</h1>
     </div>
   );
