@@ -7,7 +7,6 @@
     background-color: orangered;
     width: 100%;
 
-
     &__link {
 
         &:link,
@@ -25,7 +24,6 @@
     &__list {
         // margin: auto;
         padding: 0 auto;
-
 
         // margin-top: 2.5rem;
         display: inline-flex;
@@ -54,7 +52,7 @@
         margin-right: auto;
         margin-left: 1rem;
         font-size: 0.9375rem;
-        font-weight: bold;
+        font-weight: 500;
         color: $color-neutral-gray;
     }
 }
