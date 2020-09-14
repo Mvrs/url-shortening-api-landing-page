@@ -1,10 +1,11 @@
 import Head from 'next/head';
 // import '../../sass/pages/home.scss';
 import Nav from '../components/nav';
+import Layout from '../components/layout';
 
 export default function Home() {
   return (
-    <div className="container">
+    <Layout>
       <Head>
         <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
         <link
@@ -19,7 +20,7 @@ export default function Home() {
         />
       </Head>
       <Nav />
-      <h1 className="super-color"> Hello I'm super color</h1>
-    </div>
+      {/* <h1 className="super-color"> Hello I'm super color</h1> */}
+    </Layout>
   );
 }

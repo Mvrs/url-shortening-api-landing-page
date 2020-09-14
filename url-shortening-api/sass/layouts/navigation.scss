@@ -1,13 +1,85 @@
-.navigation {
-    // min-height: 2.5rem;
-    height: 10vh;
-    margin-top: 40px;
-    position: relative;
-
-    background-color: orangered;
+.nav {
+    // min-height of the nav-bar
+    min-height: 2.5rem;
+    /* vertical | horizontal */
+    margin: 3rem auto;
+    max-width: 69rem;
     width: 100%;
 
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* top | right | bottom | left */
+        padding: 0.625rem 0 0.5625rem 0;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 0.9375rem;
+    }
+
+    &__logo {
+        height: 100%;
+        cursor: pointer;
+        margin-right: 2.8125rem;
+    }
+
+    &__info {
+        display: inline-flex;
+        margin-right: auto;
+
+        li:nth-of-type(1) {
+            padding-left: 0;
+        }
+
+        li:nth-of-type(3) {
+            padding-right: 0;
+        }
+    }
+
+    &__auth {
+        display: inline-flex;
+    }
+
+    &__item {
+        text-decoration: none;
+        list-style: none;
+
+        &--auth {
+            padding: 0 32px;
+        }
+
+        &--info {
+            padding: 0 32px;
+        }
+
+        &--active {
+            background-color: $color-primary-cyan;
+
+            a {
+                color: white !important;
+            }
+
+
+            &:hover {
+                background-color: $color-action-cyan;
+            }
+
+            cursor: pointer;
+            transition: 700ms;
+            border: none;
+            border-radius: 28px;
+            height: 100%;
+            padding: 0.5625rem 1.4375rem 0.5rem 1.5rem;
+        }
+
+        :not(:last-child) {
+            margin-right: 0.3125rem;
+        }
+    }
+
     &__link {
+        cursor: pointer;
+        transition: color 700ms;
 
         &:link,
         &:visited {
@@ -19,40 +91,5 @@
         &:active {
             color: $color-primary-black;
         }
-    }
-
-    &__list {
-        // margin: auto;
-        padding: 0 auto;
-
-        // margin-top: 2.5rem;
-        display: inline-flex;
-        align-self: center;
-        align-content: center;
-        justify-content: center;
-        // position: absolute;
-        // justify-content: space-between;
-    }
-
-    &__item {
-        text-decoration: none;
-        font-size: 0.9375rem;
-        font-weight: bold;
-        color: $color-neutral-gray;
-        text-decoration: none;
-        list-style: none;
-
-        :not(:last-child) {
-            margin-right: 0.3125rem;
-        }
-    }
-
-    &__feat__item {
-        display: inline-flex;
-        margin-right: auto;
-        margin-left: 1rem;
-        font-size: 0.9375rem;
-        font-weight: 500;
-        color: $color-neutral-gray;
     }
 }
