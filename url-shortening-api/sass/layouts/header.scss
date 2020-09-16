@@ -4,7 +4,7 @@
 	max-width: 69rem;
 	min-height: 44.5rem;
 	margin: 4.875rem auto;
-	border: 1px solid orange;
+	// border: 1px solid orange;
 
 	&__info-container {
 		margin-top: 8.6875rem;
@@ -13,7 +13,7 @@
 		display: block;
 		display: flex;
 		flex-direction: column;
-		border: 1px solid orangered;
+		// border: 1px solid orangered;
 		position: absolute;
 	}
 	&__info-title {
@@ -22,6 +22,7 @@
 		letter-spacing: -0.125rem;
 		// margin-bottom: 0;
 		line-height: 5.625rem;
+		margin-top: 8px;
 	}
 	&__info-description {
 		position: relative;
@@ -33,10 +34,12 @@
 	}
 
 	&__info-button {
-		border: 1px solid chartreuse;
+		// border: 1px solid chartreuse;
 	}
 	button {
 		position: relative;
+		border: 0;
+		background: transparent;
 		margin-right: auto;
 		margin-top: 2.375rem;
 	}
@@ -45,7 +48,7 @@
 		position: relative;
 		display: inline-block;
 		z-index: -1;
-		top: 5.8125rem;
+		top: 4.8125rem;
 		left: 33.4375rem;
 		margin-left: 2.5rem;
 	}
