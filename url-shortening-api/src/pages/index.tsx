@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Nav from '../components/nav'
 import Header from '../components/header'
 import Layout from '../components/layout'
+import Branding from '../components/branding'
 
 export default function Home() {
 	return (
@@ -22,6 +23,7 @@ export default function Home() {
 			</Head>
 			<Nav />
 			<Header />
+			<Branding />
 		</Layout>
 	)
 }

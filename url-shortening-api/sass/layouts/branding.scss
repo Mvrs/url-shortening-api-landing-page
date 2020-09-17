@@ -1,0 +1,92 @@
+// body {
+// 	margin: auto;
+// 	padding: auto;
+// 	// border: 2px solid greenyellow;
+// }
+
+.branding {
+	width: 100%;
+	min-height: 56.875rem;
+	background-color: $color-primry-smurple;
+	background-size: contain;
+	overflow-x: hidden !important;
+	overflow-y: hidden !important;
+	// border: 1px solid orange;
+
+	&__container {
+		margin-top: 12.75rem;
+		margin-right: auto;
+		margin-left: auto;
+		display: block;
+		min-height: 36.5625rem;
+		width: 69rem;
+		border: 1px solid orange;
+		position: relative;
+	}
+
+	&__container-info {
+		border: 1px solid greenyellow;
+		// margin: 0 auto;
+		margin-left: auto;
+		margin-right: auto;
+		min-height: 8.125rem;
+		width: 33.75rem;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		position: relative;
+		align-self: center;
+	}
+
+	&__title {
+		font-size: 2.5rem;
+		line-height: 3rem;
+		margin-bottom: 1.25rem;
+		letter-spacing: -0.0625rem;
+	}
+	&__description {
+		font-size: 1.125rem;
+		//line height 32
+		line-height: 2rem;
+		// letter spacing 0.12px
+		letter-spacing: 0.0075rem;
+		color: $color-primary-gray;
+	}
+
+	&__container-features {
+		width: inherit;
+		outline: 1px solid orangered;
+		min-height: 24.9375rem;
+		margin-top: 3.5rem;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__feature_card-1 {
+		outline: 1px solid purple;
+		height: 19.4375rem;
+		width: 21.875rem;
+		margin-top: auto;
+	}
+	&__feature_card-2 {
+		outline: 1px solid purple;
+		height: 19.4375rem;
+		width: 21.875rem;
+		margin-top: auto;
+	}
+	&__feature_card-3 {
+		outline: 1px solid purple;
+		height: 19.4375rem;
+		width: 21.875rem;
+		margin-top: auto;
+		// position: relative;
+	}
+
+	.u-card {
+		// this will start cards at
+		// bottom of parent container
+		bottom: 0;
+		position: absolute;
+		outline: 1px solid blue;
+	}
+}
