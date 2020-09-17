@@ -7,7 +7,7 @@
 	// border: 1px solid orange;
 
 	&__info-container {
-		margin-top: 8.6875rem;
+		margin-top: 3.6875rem;
 		margin-right: auto;
 		min-height: 22.0625rem;
 		display: block;
@@ -22,7 +22,7 @@
 		letter-spacing: -0.125rem;
 		// margin-bottom: 0;
 		line-height: 5.625rem;
-		margin-top: 8px;
+		margin-bottom: 8px;
 	}
 	&__info-description {
 		position: relative;
@@ -47,12 +47,19 @@
 	&__image-container {
 		position: relative;
 		display: inline-block;
+		// border: 1px solid sandybrown;
 		z-index: -1;
-		top: 4.8125rem;
-		left: 33.4375rem;
-		margin-left: 2.5rem;
+		// top: 0.8125rem;
+		top: 0;
+		left: 40.4375rem;
+		overflow: hidden !important;
+		height: auto;
+		margin-bottom: 0;
+		max-width: 650px;
+		margin-left: 0.95rem;
 	}
 	img {
+		left: 1.5rem;
 		position: relative;
 	}
 }
