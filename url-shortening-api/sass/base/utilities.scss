@@ -31,32 +31,55 @@
 // }
 
 .u-button-active {
-	background-color: $color-primary-cyan;
-	color: white;
-	font-family: Poppins;
-	font-size: 1.25rem;
-	font-weight: bold;
+  background-color: $color-primary-cyan;
+  color: white;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-weight: bold;
 
-	a {
-		color: white !important;
-	}
+  a {
+    color: white !important;
+  }
 
-	&:hover {
-		background-color: $color-action-cyan;
-	}
+  &:hover {
+    background-color: $color-action-cyan;
+  }
 
-	cursor: pointer;
-	transition: 700ms;
-	border: none;
-	border-radius: 28px;
-	height: 100%;
-	padding: 0.875rem 2.5rem 0.75rem 2.5rem;
+  cursor: pointer;
+  transition: 700ms;
+  border: none;
+  border-radius: 28px;
+  height: 100%;
+  padding: 0.875rem 2.5rem 0.75rem 2.5rem;
+}
+
+.u-button-url-active {
+  background-color: $color-primary-cyan;
+  color: white;
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-weight: bold;
+
+  a {
+    color: white !important;
+  }
+
+  &:hover {
+    background-color: $color-action-cyan;
+  }
+
+  cursor: pointer;
+  transition: 700ms;
+  border: none;
+  border-radius: 10px;
+  // height: 100%;
+  padding: 1.125rem 2.5rem 0.95rem 2.5rem;
 }
 
 .u-card {
-	width: 21.875rem;
-	height: 16.6875rem;
-	// outline: 1px solid palevioletred;
-	background-color: white;
-	border-radius: 5px;
+  width: 21.875rem;
+  height: 16.6875rem;
+  // outline: 1px solid palevioletred;
+  background-color: white;
+  border-radius: 5px;
 }

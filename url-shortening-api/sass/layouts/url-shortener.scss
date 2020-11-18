@@ -1,0 +1,54 @@
+.url {
+  z-index: 1;
+  top: auto;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+  &__url-container {
+    width: 1110px;
+    min-height: 10.3125rem;
+    background-image: url('../../images/bg-shorten-desktop.svg');
+    background-size: cover;
+    background-color: $color-primary-dark-violet;
+    border-radius: 10px;
+  }
+
+  &__url-form {
+    min-width: 759px;
+    background-color: white;
+    border-color: white;
+    border-radius: 10px;
+    border-style: none;
+    margin-left: 64px;
+    margin-top: 52px;
+    height: 64px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+    // z-index: 2;
+  }
+
+  &__url-button {
+    position: relative;
+    display: inline-block;
+    left: 79%;
+    bottom: 35%;
+    // margin-left: auto;
+  }
+
+  input[type='text'] {
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: $color-primary-gray;
+    font-family: $default-font-family;
+    padding-left: 2rem;
+  }
+  ::placeholder {
+    color: $color-primary-gray;
+  }
+}

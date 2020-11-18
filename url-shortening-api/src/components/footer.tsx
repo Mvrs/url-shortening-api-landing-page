@@ -1,8 +1,12 @@
 // @ts-ignore: corresponding type declarations.ts(2307)
 import logo from '../../images/logo-w.svg'
+// @ts-ignore: corresponding type declarations.ts(2307)
 import facebook from '../../images/icon-facebook.svg'
+// @ts-ignore: corresponding type declarations.ts(2307)
 import twitter from '../../images/icon-twitter.svg'
+// @ts-ignore: corresponding type declarations.ts(2307)
 import pinterest from '../../images/icon-pinterest.svg'
+// @ts-ignore: corresponding type declarations.ts(2307)
 import instagram from '../../images/icon-instagram.svg'
 
 function Footer() {
